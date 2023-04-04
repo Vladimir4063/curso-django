@@ -1,0 +1,10 @@
+Iniciar servidor:
+-python manage.py runserver
+
+
+Cuando hago cambios o agrego una nueva tabla al models:
+-python manage.py makemigrations
+
+
+Inicio models para crear tablas en DDBB:
+-python manage.py migrate
