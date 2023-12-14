@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    #include nos permite traer todas las urls de la myapp
     path('', include('myapp.urls')),
 ]

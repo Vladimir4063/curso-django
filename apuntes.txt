@@ -1,10 +1,25 @@
+
+
+
+###########
+-Iniciar proyectos
+django-admin startproject mysite
+
+
 Iniciar servidor:
 -python manage.py runserver
 
 
-Cuando hago cambios o agrego una nueva tabla al models:
--python manage.py makemigrations
 
+######## BASE DE DATOS:
+
+Cuando hago cambios o agrego una nueva tabla al models:
+-python manage.py makemigrations myapp
 
 Inicio models para crear tablas en DDBB:
--python manage.py migrate
+-python manage.py migrate myapp
+
+####### CREAR SUPER USUARIO - admin
+python manage.py createsuperuser
+
+
